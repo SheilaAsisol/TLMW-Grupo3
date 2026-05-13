@@ -1,1 +1,9 @@
+body {
+  font-family: "inter", sans-serif;
+  color: #1A24A;
+}
 
+h1{
+  color: #028090;
+  font-size: 2rem;
+}
