@@ -1,13 +1,67 @@
+:root {
+--color-primario: #ffffff;
+--color-secundario: #009929;
+--color-terciario:#424242;
+--color-cuartario:#0D47A1;
+--color-quinto:#BBDEFB;
+--color-acento: #BDBDBD;
+--color-fondo: #FAFAFA;
+--color-texto: #616161;
+}
 body {
-  font-family: "inter", sans-serif;
-  color: #6ad7a2;
+  line-height:  1.5em;
+  background-color: var(--color-fondo);
+  color:var(--color-texto);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1rem;
 }
-
+header{
+background-color: var(--color-primario);
+}
 h1{
-  color: #5cc1a4;
-  font-size: 2rem;
+color: var(--color-secundario);
+font-size: 3rem;
+text-align: center;
+line-height: 6rem;
 }
 
-section {
-  
+h2{
+color: var(--color-terciario);
+font-size: 2rem;
+text-indent: 1rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+nav {
+  color: var(--color-primario);
+  background: linear-gradient(to right,var(--color-cuartario),var(--color-quinto));
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+line-height: 3rem;
+}
+  li{ 
+  width: 10rem; 
+  display: inline-block;
+  text-align: center;
+}
+
+}
+a:hover{
+  background: var(--color-quinto);
+  color: var(--color-terciario)
+}
+
+footer{
+  background: linear-gradient(to right,var(--color-cuartario),var(--color-quinto));
+  color: var(--color-fondo);
+  width: 100%;
+  padding: 2.5rem 0;
 }
