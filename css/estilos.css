@@ -38,6 +38,7 @@ text-indent: 1rem;
 p{
   margin-align: 1rem;
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -65,6 +66,16 @@ line-height: 3rem;
 a:hover{
   background: var(--color-quinto);
   color: var(--color-terciario)
+}
+
+table{
+  color: var(--color-texto);
+  background-color: var(--color-quinto);
+  border-color: var(--color-cuartario);
+  border-block-start-color: var(--color-secundario);
+  margin-inline: 2rem;
+  width: 600px;
+  text-align: center;
 }
 
 footer{
