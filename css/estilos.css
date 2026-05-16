@@ -20,6 +20,8 @@ body {
 header{
 background-color: var(--color-primario);
 }
+
+
 h1{
 color: var(--color-secundario);
 font-size: 3rem;
@@ -32,11 +34,17 @@ color: var(--color-terciario);
 font-size: 2rem;
 text-indent: 1rem;
 }
+
+p{
+  margin-align: 1rem;
+}
 a {
   text-decoration: none;
   color: inherit;
   display: block;
 }
+
+
 
 nav {
   color: var(--color-primario);
