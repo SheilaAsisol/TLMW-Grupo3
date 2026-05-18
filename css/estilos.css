@@ -36,7 +36,7 @@ text-indent: 1rem;
 }
 
 p{
-  margin-align: 1rem;
+  margin-inline: 1rem;
 }
 
 a {
@@ -76,6 +76,10 @@ table{
   margin-inline: 2rem;
   width: 600px;
   text-align: center;
+}
+
+img{
+  border-radius: 2rem;
 }
 
 footer{
