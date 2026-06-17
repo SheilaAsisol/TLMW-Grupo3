@@ -3,7 +3,7 @@
 Transformando realidades y brindando apoyo a las familias en situciones vulnerables.
 
 ## Nuestro Proyecto
-Este repositorio contiene el desarrollo del sitio web web oficial de Manos Al Futuro.
+Este repositorio contiene el desarrollo del sitio web oficial de Manos Al Futuro.
 
 ## Caracteristicas Principales
 - Visualizacion  de programas: Informacion detallada de la asistencia alimentaria, educativa y laboral.
