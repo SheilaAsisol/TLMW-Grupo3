@@ -29,6 +29,9 @@ header{
 background-color: var(--color-primario);
 }
 
+
+
+
 h1{
 color: var(--color-secundario);
 font-size: 3rem;
@@ -47,6 +50,8 @@ text-decoration: none;
 color: inherit;
 display:block;
 }
+
+
 
 
 nav{
@@ -81,7 +86,7 @@ border-color: var(--color-cuartario);
 border-block-start-color: var(--color-secundario);
 margin-inline-start: 3rem;
 width:600px;
-text-align:center;
+margin-inline-start: 2rem;
 }
 
 footer{
@@ -110,6 +115,9 @@ margin-bottom:1rem;
 padding:1rem;
 border-left:5px solid var(--color-secundario);
 }
+
+
+
 
 h2{
 color: var(--color-terciario);
@@ -141,6 +149,9 @@ article p{
 margin-left:0.5rem;
 }
 
+
+
+
 figure{
 text-align:center;
 margin-top:1.5rem;
@@ -156,6 +167,9 @@ figcaption{
 margin-top:1rem;
 font-style:italic;
 }
+
+
+
 .programas-flex{
 display:flex;
 flex-wrap:wrap;
@@ -182,6 +196,8 @@ margin-top:auto;
 transform:translateY(-5px);
 transition:transform .3s ease;
 }
+
+
 
 @media(max-width:768px){
 
