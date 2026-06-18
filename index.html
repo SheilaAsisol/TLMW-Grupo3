@@ -6,20 +6,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Manos al Futuro</title>
         <link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+GB+J+Guides:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
     <body>
         <header>
-            <h1>Manos al Futuro</h1>
-       
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="Programas.html">Programas</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav> 
+
+            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+                <div class="bg-dark p-4">                    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Programas.html">Programas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                            <a class="navbar-brand" href="index.html" class="logo">
+                        <img src="/imagenes/index/logo.jfif" alt="Nombre de la ONG">
+                    </a>
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
         </header>
         
         <main>
@@ -29,20 +49,57 @@
                 </p>
             </section>
             <section>
-                <h2>Qué hacemos</h2>
-                <ul>
-                    <li>Apoyo escolar</li>
-                    <li>Alimentación saludable</li>
-                    <li>Talleres para jóvenes</li>
-                    <li>Contención familiar</li>
-                    <li>Voluntariado solidario</li>
-                </ul>
+                        
+                <div class="programas">
+                    <h2>Qué hacemos</h2>
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                            <img src="imagenes/index/apoyo escolar.jfif" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Apoyo escolar</h5>
+                                <p class="card-text">El apoyo escolar es una herramienta fundamental para fortalecer el aprendizaje, mejorar la autoestima de los estudiantes y reforzar hábitos de estudio. 
+                                                Si estás buscando ideas para implementarlo o imágenes para ambientar tus clases, aquí tenés una selección de las mejores alternativas.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                            <img src="imagenes/index/talleres.jfif" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Talleres para jóvenes</h5>
+                                <p class="card-text">Para organizar talleres atractivos para jóvenes, lo ideal es combinar intereses actuales, tecnología y expresión personal. 
+                                                Adaptar estas propuestas al entorno local con dinámicas de grupo, espacios culturales o centros barriales garantizará una excelente participación.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                            <img src="imagenes/index/contencion familiar.jfif" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Contención familiar</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                            <img src="imagenes/index/voluntariado.jfif" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Voluntariado solidario</h5>
+                                <p class="card-text">El voluntariado solidario es una forma poderosa de transformar realidades, fomentar la cohesión social y desarrollar habilidades blandas como la empatía y el liderazgo. Si estás buscando inspiración, 
+                                                aquí tienes ideas prácticas de acción social y dónde encontrar recursos visuales para tus proyectos o campañas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
             </section>
-            <img src="https://picsum.photos/400/300" alt="Comunidad y educación">
-
+           
         </main>
         <footer>
             <p>© 2026 Manos al Futuro</p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
 </html>
