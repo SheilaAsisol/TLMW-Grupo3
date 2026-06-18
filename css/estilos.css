@@ -146,6 +146,7 @@ figcaption{
 
 
 
+
 .programas-flex{
   display:flex;
   flex-wrap:wrap;
@@ -173,6 +174,13 @@ figcaption{
 .programas-flex article:hover{
   transform:translateY(-5px);
 }
+
+.programas-flex ul {
+    list-style-type: disc; /* Fuerza a que se vean los puntitos */
+    padding-left: 20px;    /* Deja espacio a la izquierda para que no se corten */
+}
+
+
 
 
 footer{
