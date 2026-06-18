@@ -12,5 +12,5 @@ Este repositorio contiene el desarrollo del sitio web oficial de Manos Al Futuro
 
 ## Grupo conformado por:
 - Flores Tomas Joaquin 
-- Rodriguez Sofia
+- Rodriguez Lucia
 - Asisoil Sheila Nahir
