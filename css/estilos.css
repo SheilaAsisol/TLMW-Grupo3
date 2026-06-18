@@ -76,7 +76,7 @@ table{
   border-block-start-color:var(--color-secundario);
   margin-inline-start:3rem;
   width:600px;
-  text-align:center;
+  margin-inline-start: 2rem;
 }
 
 main{
