@@ -91,7 +91,7 @@ figcaption{
 
 
 
-/* Visualizacion de Titulos y Subtitulos ------------------------------------------------------------------------*/
+/* Visualizacion de Titulos, Subtitulos y textos ------------------------------------------------------------------------*/
 
 h1{
   color:var(--color-secundario);
@@ -113,10 +113,23 @@ h3{
   margin-bottom:1rem;
 }
 
+p{
+color: var(--color-texto);
+font-size:1rem;
+text-align:justify;
+line-height:1.8;
+margin-bottom:1rem;
+  color:var(--color-texto);
+  font-size:1rem;
+  text-align:justify;
+  line-height:1.8;
+  margin-bottom:1rem;
+}
 
 
 
 
+  
 /* Aspecto visual y configuracion del Navegador de la pagina -----------------------------------------------------------*/
 
 header{
