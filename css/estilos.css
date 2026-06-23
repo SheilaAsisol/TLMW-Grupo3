@@ -31,7 +31,6 @@ main{
   padding:2rem;
 }
 
-@media (max-width:768px){
 
   
 
@@ -64,9 +63,8 @@ table{
   background-color:var(--color-quinto);
   border-color:var(--color-cuartario);
   border-block-start-color:var(--color-secundario);
-  margin-inline-start:3rem;
+  margin-inline-start:2rem;
   width:600px;
-  margin-inline-start: 2rem;
 }
 
 img{
@@ -287,13 +285,12 @@ footer{
 }
 
 
+
+
+
+
+/* Visualizacion en dispositivos moviles: celulares y tablets ----------------------------------------------------------------------------*/
 @media (max-width:768px){
-
-
-  main{
-  max-width:1200px;
-  margin:auto;
-  padding:2rem;
 }
 
 
