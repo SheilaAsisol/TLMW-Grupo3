@@ -1,13 +1,15 @@
 /* Colores de la pagina --------------------------------------------------------------------------------------*/
 :root {
   --color-primario: #ffffff;
-  --color-secundario: #009929;
+  --color-secundario: #009499;
   --color-terciario: #424242;
   --color-cuartario: #0D47A1;
   --color-quinto: #BBDEFB;
+  --color-sexto: #94bcdd;
   --color-acento: #BDBDBD;
   --color-fondo: #FAFAFA;
   --color-texto: #616161;
+  --color-texto-modo-oscuro: #949494;
   --color-texto-footer: #ffffff;
 }
 
@@ -46,6 +48,39 @@ body.oscuro {
 body.oscuro section {
   background-color: #2d2d2d;
 }
+
+body.oscuro header{
+  background-color:var(--color-terciario);
+}
+
+
+
+/*Texto y tabla ------------*/
+
+body.oscuro h1{
+  color:var(--color-quinto)
+}
+
+body.oscuro h2{
+  color:var(--color-sexto)
+}
+
+body.oscuro h5{
+  color:var(--color-sexto)
+}
+
+body.oscuro p{
+  color:var(--color-texto-modo-oscuro)
+}
+
+body.oscuro footer p{
+  color: var(--color-texto-footer)
+}
+
+body.oscuro table {
+  background-color:var(--color-texto-modo-oscuro);
+}
+
 
 
   
