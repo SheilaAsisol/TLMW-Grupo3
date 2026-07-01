@@ -8,6 +8,7 @@
   --color-acento: #BDBDBD;
   --color-fondo: #FAFAFA;
   --color-texto: #616161;
+  --color-texto-footer: #ffffff;
 }
 
 
@@ -297,6 +298,11 @@ footer{
   color:var(--color-fondo);
   width:100%;
   padding:2.5rem 0;
+}
+
+footer p{
+  color: var(--color-texto-footer);
+  margin-left: 2rem;
 }
 
 
