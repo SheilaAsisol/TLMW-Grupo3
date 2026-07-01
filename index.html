@@ -10,54 +10,46 @@
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <header>
+    <header>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+               <a class="navbar-brand" href="index.html" class="logo"><img src="imagenes/index/logo.jfif" alt="Nombre de la ONG" href="index.html"><br>Manos al Futuro</a>
 
-            /*Hay que corregir el header*/
-        
-            <nav class="navbar bg-body-tertiary fixed-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html" class="logo"><img src="imagenes/index/logo.jfif" alt="Nombre de la ONG"></a>        
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="title" id="">Manos al futuro</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                                <a class="nav-link active" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                                <a class="nav-link" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item ">
-                                <a class="nav-link" href="Programas.html">Programas</a>
-                        </li>
-                        <li class="nav-item ">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#menuPrincipal">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
 
-                        <li>
+               <div class="collapse navbar-collapse" id="menuPrincipal">
+                  <ul class="navbar-nav ms-auto">
+
+                     <li class="nav-item">
+                           <a class="nav-link" href="index.html">Inicio</a>
+                     </li>
+
+                     <li class="nav-item">
+                           <a class="nav-link" href="nosotros.html">Nosotros</a>
+                     </li>
+
+                     <li class="nav-item">
+                           <a class="nav-link" href="programas.html">Programas</a>
+                     </li>
+
+                     <li class="nav-item">
+                           <a class="nav-link active" href="contacto.html">Contacto</a>
+                     </li>
+
+                     <li>
                         <button id="btn-modo" class="btn btn-dark mb-4">
                             🌙 Modo oscuro
                         </button>
-                        </li>
+                     </li>
 
-                            
-                        </ul>
-                        </form>
-                    </div>
-                    </div>
-                </div>
-            </nav>
+                  </ul>
+               </div>
 
-            <br>
-            <br>    
-            <br>
-            <br>
+            </div>
+         </nav>
             
             <h1>Nuestra Misión</h1>
             
